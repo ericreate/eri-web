@@ -130,9 +130,14 @@ background-clip: text;
 }
 
 #pic-1 {
-    width: 350px;
-    max-width: 100%;
-    border-radius: 20px;
+  width: 350px;
+  height: 350px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .home > section > div:last-child {
@@ -647,8 +652,12 @@ footer p:last-child {
 }
 
 #pic-1 {
-    width: 280px;
-    max-width: 100%
+  width: 250px;
+  height: 250px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
 
 #pic-2 {
@@ -697,11 +706,13 @@ footer p:last-child {
 
 }
 
-#view{
-  margin: 20px;
-}
+  #view {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+  }
 
-@media (max-width: 600px) {
+
   #display.show {
     display: block;
     position: absolute;
@@ -725,6 +736,7 @@ footer p:last-child {
 
   }
 }
+
 
 
 /* Tablet */
