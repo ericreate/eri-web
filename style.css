@@ -572,6 +572,19 @@ video {
 .contact-form {
     flex: 1;
 }
+.map {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 25px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
 
 .contact-form input,
 .contact-form textarea {
