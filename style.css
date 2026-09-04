@@ -5,18 +5,25 @@
 
 
 
-.header{
+.header {
   background-color: #E5E0D8;
-  border-bottom: 1px solid #ddd4c8;
-  padding: 15px;
+  border-bottom: 1px solid #d8cec1;
+  padding: 8px 15px;
+  height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  top: 0; 
-  border-bottom: 1px solid #d8cec1;
-  
-  }
+  top: 0;
+  z-index: 1000;
+}
+
+#header-logo {
+  width: 85px;
+  height: auto;
+  display: block;
+}
+
 
 .map {
   width: 100%;
@@ -29,11 +36,6 @@
 .map iframe {
   width: 100%;
   display: block;
-}
-
-#header-logo {
-    width: 100px;
-    height: auto;
 }
 
 #menu{
@@ -767,6 +769,8 @@ footer p:last-child {
     gap: 40px;
 }
 
+  
+
 }
 
   #view {
@@ -786,6 +790,7 @@ footer p:last-child {
     padding: 20px;
     border: 1px solid #d8cec1;
     border-radius: 8px;
+    z-index: 1001;
   }
 
   #display.show #menu {
