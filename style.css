@@ -8,8 +8,8 @@
 .header {
   background-color: #E5E0D8;
   border-bottom: 1px solid #d8cec1;
-  padding: 8px 15px;
-  height: 85px;
+  padding: 5px 15px;
+  height: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 #header-logo {
-  width: 85px;
+  width: 70px;
   height: auto;
   display: block;
 }
